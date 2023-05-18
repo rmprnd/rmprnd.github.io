@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap');
+
+:root{
+    --main-color:#8294C4;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5s;
+} 
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+section{
+    padding: 1rem 5%;
+    min-height: 100vh;
+}
+ 
+.heading{
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-right: .1rem;
+    padding-bottom: 1.5rem;
+    color: #8EA7E9;
+    text-transform: uppercase;
+}
+
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    background: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: #8EA7E9;
+    letter-spacing: .2rem;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding:8rem 2rem;
+    width: 30rem;
+    text-align: center;
+}
+
+.semester1 .row-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.semester1 .row-1 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-1 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 35.5rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-1 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-1 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-1 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-1 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+} 
+
+
+.semester1 .row-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.semester1 .row-2 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-2 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 35.5rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-2 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-2 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-2 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-2 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+.semester1 .row-3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.semester1 .row-3 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-3 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 36.5rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-3 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-3 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-3 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-3 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+.semester1 .row-4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.semester1 .row-4 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-4 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 20rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-4 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-4 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-4 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-4 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+
+.semester1 .row-5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.semester1 .row-4 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-4 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 14.5rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-4 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-4 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-4 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-4 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+.semester1 .row-5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.semester1 .row-5 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-5 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 32.6rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-5 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-5 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-5 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-5 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+.semester1 .row-6{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.semester1 .row-6 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-6 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 27rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-6 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-6 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-6 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-6 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+.semester1 .row-7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.semester1 .row-7 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-7 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 23.5rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-7 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-7 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-7 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-7 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
+.semester1 .row-8{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.semester1 .row-8 .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.semester1 .row-8 .icons-container .icons{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem rgb(0,0,0,.1);
+}
+
+.semester1 .row-8 .icons-container .icons a:hover{
+    color: var(--main-color);
+    letter-spacing: .1rem;
+}
+
+.semester1 .row-8 .icons-container .icons h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+}
+
+.semester1 .row-8 .icons-container .icons i{
+    height:4rem;
+    width:4rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    background: #8294C4;
+    border-radius: 50%;
+}
+.semester1 .row-8 .icons-container .icons a{
+    color:#666;
+    font-size: 2rem;
+    padding-right: 7.5rem;
+} 
+
